@@ -1,0 +1,1285 @@
+INFO - 2023-10-16 07:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 07:56:05 --> Undefined variable $UserModel
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 APPPATH\Controllers\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserModel', 'C:\\xampp\\htdocs\\Authentication\\app\\Controllers\\Admin.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 07:57:39 --> Undefined variable $users
+in APPPATH\Controllers\Admin.php on line 17.
+ 1 APPPATH\Controllers\Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\Authentication\\app\\Controllers\\Admin.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 08:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 08:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:03:16 --> Undefined variable $user
+in APPPATH\Views\Admin\users.php on line 8.
+ 1 APPPATH\Views\Admin\users.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:06:15 --> Undefined variable $user
+in APPPATH\Views\Admin\users.php on line 8.
+ 1 APPPATH\Views\Admin\users.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:06:17 --> Undefined variable $user
+in APPPATH\Views\Admin\users.php on line 8.
+ 1 APPPATH\Views\Admin\users.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:06:18 --> Undefined variable $user
+in APPPATH\Views\Admin\users.php on line 8.
+ 1 APPPATH\Views\Admin\users.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:06:36 --> Undefined variable $user
+in APPPATH\Views\Admin\users.php on line 8.
+ 1 APPPATH\Views\Admin\users.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:11:32 --> Undefined variable $session
+in APPPATH\Views\Admin\users.php on line 8.
+ 1 APPPATH\Views\Admin\users.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:13:05 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:14:00 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:14:06 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:37:00 --> Undefined variable $user
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:37:25 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:37:27 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:37:27 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:37:28 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:39:27 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:41:08 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:41:09 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:41:09 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:41:10 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 09:41:11 --> Undefined array key "name"
+in APPPATH\Views\Admin\users.php on line 9.
+ 1 APPPATH\Views\Admin\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 09:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 09:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 10:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 10:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 10:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:39:39 --> Undefined variable $i
+in APPPATH\Views\Admin\users.php on line 26.
+ 1 APPPATH\Views\Admin\users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:40:24 --> Undefined variable $u
+in APPPATH\Views\Admin\users.php on line 26.
+ 1 APPPATH\Views\Admin\users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $u', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:44:55 --> Attempt to read property "name" on string
+in APPPATH\Views\Admin\users.php on line 34.
+ 1 APPPATH\Views\Admin\users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on string', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:45:43 --> Attempt to read property "name" on string
+in APPPATH\Views\Admin\users.php on line 34.
+ 1 APPPATH\Views\Admin\users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on string', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:46:39 --> Undefined variable $u
+in APPPATH\Views\Admin\users.php on line 23.
+ 1 APPPATH\Views\Admin\users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $u', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:47:04 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 23.
+ 1 APPPATH\Views\Admin\users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:47:54 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 23.
+ 1 APPPATH\Views\Admin\users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:48:41 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 23.
+ 1 APPPATH\Views\Admin\users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:59:32 --> Unclosed '{' on line 19
+in APPPATH\Views\Admin\users.php on line 45.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 11:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 11:59:46 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 25.
+ 1 APPPATH\Views\Admin\users.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:00:43 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 25.
+ 1 APPPATH\Views\Admin\users.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:01:23 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 26.
+ 1 APPPATH\Views\Admin\users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:01:25 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 26.
+ 1 APPPATH\Views\Admin\users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:01:25 --> Attempt to read property "id" on array
+in APPPATH\Views\Admin\users.php on line 26.
+ 1 APPPATH\Views\Admin\users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:13:11 --> Call to undefined method App\Models\UserModel::runQuery
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('runQuery', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-16 12:16:02 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(102): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:16:02 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\UserModel.php(102): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'2\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'2\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 12:23:24 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tbl_users' in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'tbl_users', 3306, '', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(102): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tbl_users' in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(102): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#4 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-16 12:23:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tbl_users'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\UserModel.php(102): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'2\' ')
+ 3 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'2\' ', true)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 12:24:15 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(102): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:24:15 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\UserModel.php(102): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'2\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'2\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 12:25:39 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:25:39 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'2\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'2\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 12:29:06 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:29:06 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'2\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'2\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-16 12:36:36 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:36:36 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'2\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'2\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 12:39:33 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:39:33 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'2\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'2\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:39:36 --> Undefined constant "App\Controllers\BASE_PATH"
+in APPPATH\Controllers\Admin.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->deleteUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:41:02 --> Undefined constant "App\Controllers\BASE_PATH"
+in APPPATH\Controllers\Admin.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->deleteUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:42:23 --> Undefined constant "App\Controllers\BASE_PATH"
+in APPPATH\Controllers\Admin.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->deleteUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-16 12:45:00 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:45:00 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\UserModel.php(88): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'5\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from users where id =\'5\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 12:48:52 --> mysqli_sql_exception: Table 'user_data.users' doesn't exist in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\Authentication\app\Models\SqlModel.php(47): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\Authentication\app\Controllers\Admin.php(32): App\Models\SqlModel->runQuery('select * from u...', true)
+#5 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+#6 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 12:48:52 --> Table 'user_data.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SqlModel.php(47): CodeIgniter\Database\BaseConnection->query('select * from users where id =\'5\' ')
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\SqlModel->runQuery('select * from users where id =\'5\' ', true)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:49:38 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:49:38 --> Call to undefined function App\Controllers\PrintR()
+in APPPATH\Controllers\Admin.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:49:48 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:50:04 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:50:05 --> Invalid file: "users.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('users', [], true)
+ 3 APPPATH\Controllers\Admin.php(50): view('users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:50:36 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:50:36 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Views\Admin\users.php on line 20.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(50): view('admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:52:09 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 12:53:14 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 12:53:19 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:53:19 --> Cannot access offset of type string on string
+in APPPATH\Views\Admin\users.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(50): view('admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:53:51 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:53:51 --> Cannot access offset of type string on string
+in APPPATH\Views\Admin\users.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(50): view('admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:54:04 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:54:04 --> Attempt to read property "name" on string
+in APPPATH\Views\Admin\users.php on line 28.
+ 1 APPPATH\Views\Admin\users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on string', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(50): view('admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:54:17 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', true)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 12:54:49 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:54:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\Admin\users.php on line 23.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(50): view('admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:54:57 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:54:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Admin\users.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(50): view('admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:55:12 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:55:12 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Admin\users.php on line 29.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/users', [], true)
+ 4 APPPATH\Controllers\Admin.php(50): view('admin/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 12:55:51 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 12:55:57 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 12:56:00 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 12:56:29 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\UserModel->runQuery('select * from tbl_users where id =\'5\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:56:31 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 57.
+ 1 APPPATH\Controllers\Admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Authentication\\app\\Controllers\\Admin.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->deleteUsers()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:57:11 --> Undefined constant "App\Controllers\BASE_PATH"
+in APPPATH\Controllers\Admin.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->deleteUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:58:08 --> Attempt to read property "name" on array
+in APPPATH\Views\Admin\users.php on line 28.
+ 1 APPPATH\Views\Admin\users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('Admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 12:59:00 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:01:37 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:03:22 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:04:52 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:05:05 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:14:39 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:14:44 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:15:01 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:15:03 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:16:07 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:16:10 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:16:10 --> Attempt to read property "name" on array
+in APPPATH\Views\Admin\edit.php on line 12.
+ 1 APPPATH\Views\Admin\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/edit', [], true)
+ 5 APPPATH\Controllers\Admin.php(53): view('admin/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:20:56 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 13:20:56 --> Attempt to read property "email" on array
+in APPPATH\Views\Admin\edit.php on line 15.
+ 1 APPPATH\Views\Admin\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Authentication\\app\\Views\\Admin\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/edit', [], true)
+ 5 APPPATH\Controllers\Admin.php(53): view('admin/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:22:45 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:23:47 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:24:45 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:24:45 --> Call to undefined function App\Controllers\FCrtRplc()
+in APPPATH\Controllers\Admin.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:27:22 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:27:25 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:28:00 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:28:00 --> Call to undefined function App\Controllers\FCrtRplc()
+in APPPATH\Controllers\Admin.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:30:17 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:30:17 --> Call to undefined function App\Controllers\FCrtRplc()
+in APPPATH\Controllers\Admin.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:30:24 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:30:27 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:30:50 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:30:50 --> Call to undefined function App\Controllers\FCrtRplc()
+in APPPATH\Controllers\Admin.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:33:20 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:33:25 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:33:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:33:33 --> Undefined constant "App\Controllers\BASE_PATH"
+in APPPATH\Controllers\Admin.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:34:10 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:34:12 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:37:34 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:37:42 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:37:45 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:37:48 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:37:50 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:37:51 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:37:53 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'8\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:37:54 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:37:55 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:38:07 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:38:09 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-16 13:38:12 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 13:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:38:15 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where 1 ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 13:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-16 13:42:45 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'user\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

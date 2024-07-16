@@ -1,0 +1,102 @@
+INFO - 2023-10-17 06:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:06:58 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'user\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-17 06:07:04 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'9\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:07:36 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(35): App\Models\UserModel->runQuery('select * from tbl_users where id =\'9\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:07:40 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'user\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:08:06 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'user\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:08:24 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'user\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:19:25 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'admin\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:33:42 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'admin\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:34:09 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'admin\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:36:05 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'user\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 06:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 06:36:14 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\UserModel->runQuery('select * from tbl_users where type=\'admin\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->users()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-17 06:36:17 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(36): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-17 06:36:50 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$result is deprecated in APPPATH\Models\UserModel.php on line 88.
+ 1 APPPATH\Controllers\Admin.php(36): App\Models\UserModel->runQuery('select * from tbl_users where id =\'7\' ', false)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

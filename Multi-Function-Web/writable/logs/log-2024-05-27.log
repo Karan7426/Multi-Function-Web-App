@@ -1,0 +1,112 @@
+INFO - 2024-05-27 18:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-27 18:56:05 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'user_data' in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'User_data', 3306, '', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Authentication\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Authentication\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Authentication\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Authentication\app\Validation\Userrules.php(10): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(309): App\Validation\Userrules->validateUser('supremusangel@1...', 'email,password', Array, NULL, 'password')
+#8 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', 'supremusangel@1...', Array, Array)
+#9 C:\xampp\htdocs\Authentication\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#10 C:\xampp\htdocs\Authentication\app\Controllers\User.php(27): CodeIgniter\Controller->validate(Array, Array)
+#11 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\User->login()
+#12 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#13 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'user_data' in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Authentication\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Authentication\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Authentication\app\Validation\Userrules.php(10): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(309): App\Validation\Userrules->validateUser('supremusangel@1...', 'email,password', Array, NULL, 'password')
+#7 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', 'supremusangel@1...', Array, Array)
+#8 C:\xampp\htdocs\Authentication\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\Authentication\app\Controllers\User.php(27): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\User->login()
+#11 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-05-27 18:56:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'user_data'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(10): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(309): App\Validation\Userrules->validateUser('supremusangel@12345', 'email,password', [...], null, 'password')
+ 7 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'password', 'supremusangel@12345', [...], [...])
+ 8 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\User.php(27): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->login()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 18:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 18:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-27 18:58:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'user_data' in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'User_data', 3306, '', 0)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Authentication\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Authentication\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('login@fmpaexam....', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'login@fmpaexam....', Array, Array)
+#7 C:\xampp\htdocs\Authentication\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\Authentication\app\Controllers\User.php(88): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\User->register()
+#10 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'user_data' in C:\xampp\htdocs\Authentication\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Authentication\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Authentication\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Authentication\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('login@fmpaexam....', 'email', Array, NULL, 'email')
+#5 C:\xampp\htdocs\Authentication\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'login@fmpaexam....', Array, Array)
+#6 C:\xampp\htdocs\Authentication\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\Authentication\app\Controllers\User.php(88): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(919): App\Controllers\User->register()
+#9 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\Authentication\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Authentication\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-27 18:58:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'user_data'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('login@fmpaexam.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'login@fmpaexam.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\User.php(88): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->register()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 18:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 19:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 19:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 19:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 19:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

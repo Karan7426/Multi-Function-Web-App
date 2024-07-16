@@ -1,0 +1,317 @@
+WARNING - 2023-10-11 06:27:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:28:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:28:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 06:28:13 --> Undefined constant "App\Controllers\templates"
+in APPPATH\Controllers\Test.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->myform()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:29:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 06:29:18 --> Undefined constant "App\Controllers\templates"
+in APPPATH\Controllers\Test.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->myform()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:29:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 06:29:21 --> Undefined constant "App\Controllers\templates"
+in APPPATH\Controllers\Test.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->myform()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:30:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 06:37:35 --> syntax error, unexpected identifier "print_r"
+in APPPATH\Controllers\Test.php on line 149.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Test.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Test')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Test')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Test', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:38:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:38:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 06:44:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 07:00:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 07:01:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 07:01:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 07:01:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 07:08:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 07:09:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:15:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 13:15:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'Practice', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(346): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1296): CodeIgniter\Database\MySQLi\Connection->_escapeString('kkpp@gmail.com')
+#4 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1268): CodeIgniter\Database\BaseConnection->escapeString('kkpp@gmail.com')
+#5 C:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1858): CodeIgniter\Database\BaseConnection->escape('kkpp@gmail.com')
+#6 C:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(2188): CodeIgniter\Database\BaseBuilder->setData(Array, true)
+#7 C:\xampp\htdocs\codeigniter4\system\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#8 C:\xampp\htdocs\codeigniter4\system\BaseModel.php(880): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#9 C:\xampp\htdocs\codeigniter4\app\Controllers\Test.php(96): CodeIgniter\BaseModel->insertBatch(Array)
+#10 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(919): App\Controllers\Test->insert_Data()
+#11 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#12 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\codeigniter4\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(346): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1296): CodeIgniter\Database\MySQLi\Connection->_escapeString('kkpp@gmail.com')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(1268): CodeIgniter\Database\BaseConnection->escapeString('kkpp@gmail.com')
+#4 C:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1858): CodeIgniter\Database\BaseConnection->escape('kkpp@gmail.com')
+#5 C:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(2188): CodeIgniter\Database\BaseBuilder->setData(Array, true)
+#6 C:\xampp\htdocs\codeigniter4\system\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#7 C:\xampp\htdocs\codeigniter4\system\BaseModel.php(880): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#8 C:\xampp\htdocs\codeigniter4\app\Controllers\Test.php(96): CodeIgniter\BaseModel->insertBatch(Array)
+#9 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(919): App\Controllers\Test->insert_Data()
+#10 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#11 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter4\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-11 13:15:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(346): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(1296): CodeIgniter\Database\MySQLi\Connection->_escapeString('kkpp@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(1268): CodeIgniter\Database\BaseConnection->escapeString('kkpp@gmail.com')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1858): CodeIgniter\Database\BaseConnection->escape('kkpp@gmail.com')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2188): CodeIgniter\Database\BaseBuilder->setData([...], true)
+ 6 SYSTEMPATH\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 7 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 8 APPPATH\Controllers\Test.php(96): CodeIgniter\BaseModel->insertBatch([...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->insert_Data()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:15:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:16:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 13:16:04 --> Undefined variable $data
+in APPPATH\Controllers\Test.php on line 175.
+ 1 APPPATH\Controllers\Test.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Test.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->FormValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:17:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 13:17:14 --> Undefined variable $form_data
+in APPPATH\Controllers\Test.php on line 179.
+ 1 APPPATH\Controllers\Test.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $form_data', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Test.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->FormValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:17:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 13:17:31 --> Call to undefined method CodeIgniter\Validation\Validation::listErors()
+in APPPATH\Views\templates\Validation.php on line 3.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('templates/Validation', [], true)
+ 4 APPPATH\Controllers\Test.php(194): view('templates/Validation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->FormValidation()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:18:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:18:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:18:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:18:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:18:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:19:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:19:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:21:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:21:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:21:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:24:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:26:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:27:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:27:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:31:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:35:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:37:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 13:37:22 --> Undefined array key "txt_name"
+in APPPATH\Controllers\Test.php on line 175.
+ 1 APPPATH\Controllers\Test.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "txt_name"', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Test.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Test->FormValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:38:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-11 13:38:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Test::$db is deprecated in APPPATH\Controllers\Test.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

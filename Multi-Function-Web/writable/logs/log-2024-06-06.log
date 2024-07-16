@@ -1,0 +1,935 @@
+INFO - 2024-06-06 03:12:44 --> Email sent. Response: {"messageId":"<202406060312.22684015217@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 04:49:34 --> Email sent. Response: {"messageId":"<202406060449.15979489166@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:04:05 --> Email sent. Response: {"messageId":"<202406060504.43079627010@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:13:08 --> Email sent. Response: {"messageId":"<202406060513.82523092649@smtp-relay.mailin.fr>"}
+
+CRITICAL - 2024-06-06 05:13:08 --> syntax error, unexpected end of file
+in APPPATH\Views\weather.php on line 242.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('weather', [], true)
+ 3 APPPATH\Controllers\Weather.php(32): view('weather', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 05:15:27 --> Email sent. Response: {"messageId":"<202406060515.11800538414@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:17:05 --> Email sent. Response: {"messageId":"<202406060517.50777790816@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:17:40 --> Email sent. Response: {"messageId":"<202406060517.87756106814@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:23:57 --> Email sent. Response: {"messageId":"<202406060523.28222115750@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:25:36 --> Email sent. Response: {"messageId":"<202406060525.49914595252@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:28:18 --> Email sent. Response: {"messageId":"<202406060528.55787367382@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:30:58 --> Email sent. Response: {"messageId":"<202406060530.54314509350@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:34:51 --> Email sent. Response: {"messageId":"<202406060534.39306501795@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:36:12 --> Email sent. Response: {"messageId":"<202406060536.40612019324@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:37:08 --> Email sent. Response: {"messageId":"<202406060537.68355766631@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:42:52 --> Email sent. Response: {"messageId":"<202406060542.83132509980@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:46:17 --> Email sent. Response: {"messageId":"<202406060546.14210337466@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:50:37 --> Email sent. Response: {"messageId":"<202406060550.54909909131@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:51:41 --> Email sent. Response: {"messageId":"<202406060551.26104499889@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:52:28 --> Email sent. Response: {"messageId":"<202406060552.38992138668@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:53:50 --> Email sent. Response: {"messageId":"<202406060553.94447679861@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 05:54:46 --> Email sent. Response: {"messageId":"<202406060554.66213280684@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 06:18:52 --> Email sent. Response: {"messageId":"<202406060618.75526916742@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 06:26:58 --> Email sent. Response: {"messageId":"<202406060626.58908263504@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 06:34:44 --> Email sent. Response: {"messageId":"<202406060634.75282751887@smtp-relay.mailin.fr>"}
+
+CRITICAL - 2024-06-06 06:49:36 --> unlink(C:\xampp\htdocs\weather_task\writable\debugbar/debugbar_1717655707.164042.json): Permission denied
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\weather_task\\writable\\debugbar/debugbar_1717655707.164042.json): Permission denied', 'C:\\xampp\\htdocs\\weather_task\\system\\Debug\\Toolbar\\Collectors\\History.php', 78, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(78): unlink('C:\\xampp\\htdocs\\weather_task\\writable\\debugbar/debugbar_1717655707.164042.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(499): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1717656575.939821', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(476): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(434): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 06:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 06:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 07:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 07:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 07:55:40 --> Email sent. Response: {"messageId":"<202406060755.85843194178@smtp-relay.mailin.fr>"}
+
+ERROR - 2024-06-06 07:58:44 --> mysqli_sql_exception: Table 'weather_db.assdt_service_consumption_table' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\weather_task\app\Models\SqlModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\weather_task\app\Views\dashboard.php(6): App\Models\SqlModel->runQuery('SELECT * FROM `...')
+#5 C:\xampp\htdocs\weather_task\system\View\View.php(226): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\weather_task\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\weather_task\system\Common.php(1188): CodeIgniter\View\View->render('dashboard', Array, true)
+#8 C:\xampp\htdocs\weather_task\app\Controllers\Dashboard.php(12): view('dashboard')
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+#10 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-06 07:58:44 --> Table 'weather_db.assdt_service_consumption_table' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SqlModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `assdt_service_consumption_table` ORDER BY `req_dt` ASC')
+ 2 APPPATH\Views\dashboard.php(6): App\Models\SqlModel->runQuery('SELECT * FROM `assdt_service_consumption_table` ORDER BY `req_dt` ASC')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(12): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 08:02:58 --> Email sent. Response: {"messageId":"<202406060802.13603326366@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 08:05:46 --> Email sent. Response: {"messageId":"<202406060805.47513633982@smtp-relay.mailin.fr>"}
+
+CRITICAL - 2024-06-06 08:06:20 --> Undefined property: App\Controllers\Dashboard::$weatherApiKey
+in APPPATH\Controllers\Dashboard.php on line 49.
+ 1 APPPATH\Controllers\Dashboard.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Dashboard::$weatherApiKey', 'C:\\xampp\\htdocs\\weather_task\\app\\Controllers\\Dashboard.php', 49, [...])
+ 2 APPPATH\Controllers\Dashboard.php(19): App\Controllers\Dashboard->fetchWeatherData('Mumbai')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->getWeather()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 08:07:04 --> Class 'App\Controllers\WeatherModel' not found
+in APPPATH\Controllers\Dashboard.php on line 86.
+ 1 APPPATH\Controllers\Dashboard.php(27): App\Controllers\Dashboard->storeWeatherData('Mumbai', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->getWeather()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 08:07:26 --> Email sent. Response: {"messageId":"<202406060807.78700398473@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 08:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 09:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 09:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 09:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 09:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 09:10:05 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\User.php(105): view('signup')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 09:12:21 --> Undefined variable: _SESSION
+in APPPATH\Views\dashboard.php on line 19.
+ 1 APPPATH\Views\dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\dashboard.php', 19, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 09:12:39 --> Undefined variable: _SESSION
+in APPPATH\Views\dashboard.php on line 19.
+ 1 APPPATH\Views\dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\dashboard.php', 19, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 09:12:51 --> Undefined variable: _SESSION
+in APPPATH\Views\dashboard.php on line 19.
+ 1 APPPATH\Views\dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\dashboard.php', 19, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 09:27:02 --> Email sent. Response: {"messageId":"<202406060927.49512955469@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:28:15 --> Email sent. Response: {"messageId":"<202406060928.36148894891@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:29:56 --> Email sent. Response: {"messageId":"<202406060929.33597535999@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:32:47 --> Email sent. Response: {"messageId":"<202406060932.87497411719@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:33:05 --> Email sent. Response: {"messageId":"<202406060933.78176694983@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:34:07 --> Email sent. Response: {"messageId":"<202406060934.52349365479@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:34:52 --> Email sent. Response: {"messageId":"<202406060934.41638787886@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:36:12 --> Email sent. Response: {"messageId":"<202406060936.23325899878@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:41:41 --> Email sent. Response: {"messageId":"<202406060941.43897808290@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 09:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 09:42:40 --> Email sent. Response: {"messageId":"<202406060942.18000689690@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:44:49 --> Email sent. Response: {"messageId":"<202406060944.14958287314@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:47:49 --> Email sent. Response: {"messageId":"<202406060947.41412381630@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 09:51:12 --> Email sent. Response: {"messageId":"<202406060951.19078910034@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 10:11:25 --> Email sent. Response: {"messageId":"<202406061011.29905285669@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 10:12:23 --> Email sent. Response: {"messageId":"<202406061012.21161518821@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 10:13:33 --> Email sent. Response: {"messageId":"<202406061013.51092458185@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 10:14:37 --> Email sent. Response: {"messageId":"<202406061014.82092033180@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 10:15:57 --> Email sent. Response: {"messageId":"<202406061015.29956190039@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 10:18:08 --> Email sent. Response: {"messageId":"<202406061018.35904275174@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 10:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 10:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 10:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 10:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 10:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 10:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 10:41:16 --> Undefined property: App\Controllers\Home::$weatherApiKey
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$weatherApiKey', 'C:\\xampp\\htdocs\\weather_task\\app\\Controllers\\Home.php', 42, [...])
+ 2 APPPATH\Controllers\Home.php(16): App\Controllers\Home->fetchWeatherData('Kolkata')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->getWeather()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 10:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 10:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 10:50:23 --> Email sent. Response: {"messageId":"<202406061050.29420075555@smtp-relay.mailin.fr>"}
+
+CRITICAL - 2024-06-06 11:00:06 --> Undefined variable: historyData
+in APPPATH\Views\history.php on line 26.
+ 1 APPPATH\Views\history.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: historyData', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php', 26, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('history', [], true)
+ 5 APPPATH\Controllers\Weather.php(187): view('history')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 11:05:37 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\history.php on line 35.
+ 1 APPPATH\Views\history.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('history', [], true)
+ 5 APPPATH\Controllers\Weather.php(187): view('history')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 11:05:39 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\history.php on line 35.
+ 1 APPPATH\Views\history.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('history', [], true)
+ 5 APPPATH\Controllers\Weather.php(187): view('history')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 11:05:59 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\history.php on line 35.
+ 1 APPPATH\Views\history.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('history', [], true)
+ 5 APPPATH\Controllers\Weather.php(187): view('history')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 11:06:03 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\history.php on line 35.
+ 1 APPPATH\Views\history.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('history', [], true)
+ 5 APPPATH\Controllers\Weather.php(187): view('history')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 11:06:03 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\history.php on line 35.
+ 1 APPPATH\Views\history.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('history', [], true)
+ 5 APPPATH\Controllers\Weather.php(187): view('history')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 11:06:04 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\history.php on line 35.
+ 1 APPPATH\Views\history.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\weather_task\\app\\Views\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('history', [], true)
+ 5 APPPATH\Controllers\Weather.php(187): view('history')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 11:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 12:02:00 --> mysqli_sql_exception: Table 'weather_db.users' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\weather_task\app\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\User->login()
+#8 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-06 12:02:00 --> Table 'weather_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 12:02:15 --> mysqli_sql_exception: Table 'weather_db.users' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\weather_task\app\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\User->login()
+#8 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-06 12:02:15 --> Table 'weather_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 12:02:22 --> mysqli_sql_exception: Table 'weather_db.users' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\weather_task\app\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\User->login()
+#8 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-06 12:02:22 --> Table 'weather_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 12:03:04 --> mysqli_sql_exception: Table 'weather_db.users' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\weather_task\app\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\User->login()
+#8 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-06 12:03:04 --> Table 'weather_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 12:03:10 --> mysqli_sql_exception: Table 'weather_db.users' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\weather_task\app\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\User->login()
+#8 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-06 12:03:10 --> Table 'weather_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 12:03:18 --> mysqli_sql_exception: Table 'weather_db.users' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\weather_task\app\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\User->login()
+#8 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-06 12:03:18 --> Table 'weather_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User.php(32): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 12:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 16:09:22 --> mysqli_sql_exception: Table 'weather_db.assdt_users' doesn't exist in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\weather_task\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('Karanchaudhary7...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\weather_task\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'Karanchaudhary7...', Array, Array)
+#7 C:\xampp\htdocs\weather_task\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\weather_task\app\Controllers\User.php(87): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\User->register()
+#10 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-06 16:09:22 --> Table 'weather_db.assdt_users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `assdt_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('Karanchaudhary7426@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'Karanchaudhary7426@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\User.php(87): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 16:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 16:52:53 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\weather_task\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\weather_task\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(110): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(31): App\Controllers\Weather->storeWeatherData('Gorakhpur', Array)
+#10 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+#11 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+#12 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-06-06 16:52:53 --> Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weather_data` (`location`, `date`, `temperature`, `humidity`, `weather_description`) VALUES (:location:, :date:, :temperature:, :humidity:, :weather_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Weather.php(110): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Weather.php(31): App\Controllers\Weather->storeWeatherData('Gorakhpur', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 16:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 16:56:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\weather_task\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\weather_task\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(110): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(31): App\Controllers\Weather->storeWeatherData('Gorakhpur', Array)
+#10 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+#11 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+#12 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-06-06 16:56:48 --> Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weather_data` (`date`, `temperature`, `humidity`, `weather_description`) VALUES (:date:, :temperature:, :humidity:, :weather_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Weather.php(110): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Weather.php(31): App\Controllers\Weather->storeWeatherData('Gorakhpur', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 16:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 17:00:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? ORDER BY `id` DESC' at line 1 in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\weather_task\app\Models\SqlModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(218): App\Models\SqlModel->runQuery('SELECT * FROM `...', Array)
+#5 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\Weather->viewHistory()
+#6 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+#7 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-06 17:00:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? ORDER BY `id` DESC' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\SqlModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `weather_data` WHERE `user_id` = ? ORDER BY `id` DESC')
+ 2 APPPATH\Controllers\Weather.php(218): App\Models\SqlModel->runQuery('SELECT * FROM `weather_data` WHERE `user_id` = ? ORDER BY `id` DESC', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->viewHistory()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 17:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 17:01:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\weather_task\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\weather_task\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(119): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(40): App\Controllers\Weather->storeWeatherData('Gorakhpur', Array)
+#10 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+#11 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+#12 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-06-06 17:01:07 --> Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weather_data` (`date`, `temperature`, `humidity`, `weather_description`) VALUES (:date:, :temperature:, :humidity:, :weather_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Weather.php(119): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Weather.php(40): App\Controllers\Weather->storeWeatherData('Gorakhpur', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 17:41:08 --> Call to undefined method App\Models\UserModel::passwordHash
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\UserModel.php(100): CodeIgniter\Model->__call('passwordHash', [...])
+ 2 SYSTEMPATH\BaseModel.php(1606): App\Models\UserModel->beforeInsert([...])
+ 3 SYSTEMPATH\BaseModel.php(785): CodeIgniter\BaseModel->trigger('beforeInsert', [...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\User.php(100): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 17:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 17:45:08 --> "beforeInsert" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1603.
+ 1 SYSTEMPATH\BaseModel.php(1603): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('beforeInsert')
+ 2 SYSTEMPATH\BaseModel.php(785): CodeIgniter\BaseModel->trigger('beforeInsert', [...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\User.php(100): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 17:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 17:46:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\weather_task\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\weather_task\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\weather_task\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\weather_task\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\weather_task\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\weather_task\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\weather_task\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(119): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\weather_task\app\Controllers\Weather.php(40): App\Controllers\Weather->storeWeatherData('Mumbai', Array)
+#10 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+#11 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+#12 C:\xampp\htdocs\weather_task\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\weather_task\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-06-06 17:46:41 --> Cannot add or update a child row: a foreign key constraint fails (`weather_db`.`weather_data`, CONSTRAINT `weather_data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weather_data` (`date`, `temperature`, `humidity`, `weather_description`) VALUES (:date:, :temperature:, :humidity:, :weather_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Weather.php(119): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Weather.php(40): App\Controllers\Weather->storeWeatherData('Mumbai', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Weather->getWeather()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weather))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 17:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:36:10 --> Email sent. Response: {"messageId":"<202406061936.71978074385@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 19:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 19:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:38:41 --> Email sent. Response: {"messageId":"<202406062038.44712306969@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:39:31 --> Email sent. Response: {"messageId":"<202406062039.14402776299@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:39:33 --> Email sent. Response: {"messageId":"<202406062039.55033378023@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:39:34 --> Email sent. Response: {"messageId":"<202406062039.95222236480@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:39:58 --> Email sent. Response: {"messageId":"<202406062039.38818884500@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:40:22 --> Email sent. Response: {"messageId":"<202406062040.79078499669@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:40:24 --> Email sent. Response: {"messageId":"<202406062040.15074000943@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:40:25 --> Email sent. Response: {"messageId":"<202406062040.37655199390@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:40:27 --> Email sent. Response: {"messageId":"<202406062040.53689026656@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:40:51 --> Email sent. Response: {"messageId":"<202406062040.57361171409@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:40:52 --> Email sent. Response: {"messageId":"<202406062040.66640127890@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:41:48 --> Email sent. Response: {"messageId":"<202406062041.35313601859@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:12 --> Email sent. Response: {"messageId":"<202406062042.40471951445@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:14 --> Email sent. Response: {"messageId":"<202406062042.63787768561@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:15 --> Email sent. Response: {"messageId":"<202406062042.87770200234@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:17 --> Email sent. Response: {"messageId":"<202406062042.48471660323@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:18 --> Email sent. Response: {"messageId":"<202406062042.62755298756@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:20 --> Email sent. Response: {"messageId":"<202406062042.17522857546@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:21 --> Email sent. Response: {"messageId":"<202406062042.40876949041@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:23 --> Email sent. Response: {"messageId":"<202406062042.28101453513@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:24 --> Email sent. Response: {"messageId":"<202406062042.58112126343@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:42:26 --> Email sent. Response: {"messageId":"<202406062042.33082601589@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:44:39 --> Email sent. Response: {"messageId":"<202406062044.86905774599@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:45:04 --> Email sent. Response: {"messageId":"<202406062045.85690893032@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:45:05 --> Email sent. Response: {"messageId":"<202406062045.73171304844@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:45:07 --> Email sent. Response: {"messageId":"<202406062045.66356710079@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:45:09 --> Email sent. Response: {"messageId":"<202406062045.22366202529@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:45:10 --> Email sent. Response: {"messageId":"<202406062045.68762667833@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:46:04 --> Email sent. Response: {"messageId":"<202406062046.74338568868@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:46:28 --> Email sent. Response: {"messageId":"<202406062046.85676066494@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:47:12 --> Email sent. Response: {"messageId":"<202406062047.69372592338@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:03 --> Email sent. Response: {"messageId":"<202406062048.13199152216@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:05 --> Email sent. Response: {"messageId":"<202406062048.17555675612@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:29 --> Email sent. Response: {"messageId":"<202406062048.46148841417@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:30 --> Email sent. Response: {"messageId":"<202406062048.70282167834@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:31 --> Email sent. Response: {"messageId":"<202406062048.60795296398@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:48:39 --> Email sent. Response: {"messageId":"<202406062048.70453004548@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:50:01 --> Email sent. Response: {"messageId":"<202406062050.71378726461@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:50:25 --> Email sent. Response: {"messageId":"<202406062050.74127121023@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:50:26 --> Email sent. Response: {"messageId":"<202406062050.51771969197@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:50:28 --> Email sent. Response: {"messageId":"<202406062050.29176965564@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:51:19 --> Email sent. Response: {"messageId":"<202406062051.58013285054@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:53:03 --> Email sent. Response: {"messageId":"<202406062053.84294631807@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:54:31 --> Email sent. Response: {"messageId":"<202406062054.41882330367@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 20:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 20:55:32 --> Email sent. Response: {"messageId":"<202406062055.80828800760@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:00:09 --> Email sent. Response: {"messageId":"<202406062100.18764640445@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:00:43 --> Email sent. Response: {"messageId":"<202406062100.52904407923@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:01:12 --> Email sent. Response: {"messageId":"<202406062101.89690520116@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:02:01 --> Email sent. Response: {"messageId":"<202406062102.29853603178@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:14:11 --> Email sent. Response: {"messageId":"<202406062114.46568027107@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:19:00 --> Email sent. Response: {"messageId":"<202406062119.68188398267@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:19:28 --> Email sent. Response: {"messageId":"<202406062119.97941237792@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:19:34 --> Email sent. Response: {"messageId":"<202406062119.84906598190@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:21:41 --> Email sent. Response: {"messageId":"<202406062121.12274478414@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:22:11 --> Email sent. Response: {"messageId":"<202406062122.89584746838@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:23:49 --> Email sent. Response: {"messageId":"<202406062123.57433293888@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:24:13 --> Email sent. Response: {"messageId":"<202406062124.19067830141@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:25:47 --> Email sent. Response: {"messageId":"<202406062125.74611848812@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 21:26:15 --> Email sent. Response: {"messageId":"<202406062126.99856518363@smtp-relay.mailin.fr>"}
+
+INFO - 2024-06-06 21:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
