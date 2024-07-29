@@ -3,12 +3,16 @@
 <head>
     <title>User List</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="container mt-5">
         <h2 class="mb-4">User List</h2>
         <a href="/create/" class="btn btn-success mb-3">Create User</a>
         <a href="/exportCSV/" class="btn btn-info mb-3">Export to CSV</a>
+
+        <input type="text" id="search" class="form-control mb-4" placeholder="Search by name...">
+
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -20,7 +24,7 @@
                     <th>Actions</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="user-list">
                 <?php if (!empty($users) && is_array($users)): ?>
                     <?php foreach ($users as $user): ?>
                         <tr>
@@ -47,6 +51,22 @@
             </tbody>
         </table>
     </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#search').on('keyup', function() {
+                var query = $(this).val();
+                $.ajax({
+                    url: "/filter-users",
+                    type: "GET",
+                    data: {'query': query},
+                    success: function(data) {
+                        $('#user-list').html(data);
+                    }
+                });
+            });
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

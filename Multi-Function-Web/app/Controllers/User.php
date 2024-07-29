@@ -14,6 +14,49 @@ class User extends BaseController
         return view('user_view', $data);
     }
 
+    public function filterUsers()
+    {
+        if ($this->request->isAJAX()) {
+            $query = $this->request->getGet('query');
+            $model = new UserModel();
+            
+            if ($query) {
+                $users = $model->like('name', $query)
+                               ->orLike('email', $query)
+                               ->orLike('mobile', $query)
+                               ->findAll();
+            } else {
+                $users = $model->findAll();
+            }
+
+            $response = '';
+            if (!empty($users)) {
+                foreach ($users as $user) {
+                    $response .= '
+                    <tr>
+                        <td>' . $user['id'] . '</td>
+                        <td>' . $user['name'] . '</td>
+                        <td>' . $user['email'] . '</td>
+                        <td>' . $user['mobile'] . '</td>
+                        <td><img src="/uploads/' . $user['profile_pic'] . '" width="50" height="50" class="img-thumbnail"></td>
+                        <td>
+                            <a href="/update/' . $user['id'] . '" class="btn btn-primary btn-sm">Edit</a>
+                            <form action="/delete/' . $user['id'] . '" method="post" style="display:inline;">
+                                ' . csrf_field() . '
+                                <input type="hidden" name="_method" value="DELETE">
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                        </td>
+                    </tr>';
+                }
+            } else {
+                $response = '<tr><td colspan="6" class="text-center">No users found</td></tr>';
+            }
+
+            return $response;
+        }
+    }
+
     
     
     public function create()
@@ -137,11 +180,6 @@ class User extends BaseController
     }
 }
 
-
-    
-    
-
-    
 
 
     public function delete($id)
