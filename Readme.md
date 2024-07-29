@@ -7,6 +7,7 @@ MultiFunctionWebApp is a versatile web application combining user management, di
 - **User Management**: Create, update, and manage user profiles with validation and file upload capabilities.
 - **Distance Calculation**: Calculate the distance between two geographical points using latitude and longitude.
 - **Audio File Analysis**: Analyze and retrieve the length of various audio files.
+- **Dynamic User Filtering**: Filter users by name, email, or mobile without requiring a page reload.
 
 ## Technologies Used
 
@@ -61,6 +62,7 @@ MultiFunctionWebApp is a versatile web application combining user management, di
 
 - **Create User**: Navigate to `/create` to add a new user.
 - **Edit User**: Navigate to `/edit/{id}` to edit an existing user.
+- **View User List**: Navigate to `/` to view the list of users.
 
 #### Distance Calculation
 
@@ -69,6 +71,10 @@ MultiFunctionWebApp is a versatile web application combining user management, di
 #### Audio File Analysis
 
 - **Get Audio Length**: Analyze an audio file by accessing `/audio-length/{filename}`. Ensure the file is uploaded to the `uploads` directory.
+
+#### Dynamic User Filtering
+
+- **Filter Users**: Use the search box on the user list page to filter users by name, email, or mobile without reloading the page.
 
 ### Example
 
